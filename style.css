@@ -1,0 +1,33 @@
+h2 {
+	color: red;
+}
+pre {
+	color: blue;
+}
+body {
+	background-color: lightgray;
+}
+#navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: SlateGray;
+	width: 25%;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+}
+.navitem a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 18px;
+}
+.navitem a.active {
+	background-color: lightgray;
+	color: black;
+}
+.navitem a:hover:not(.active) {
+	background-color: black;
+	color: SlateGray;
+}
